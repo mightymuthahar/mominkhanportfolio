@@ -1,0 +1,164 @@
+/* body{
+    background-color: aqua;
+} */
+
+#parent{
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+#id1{
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parent2{
+    display: flex;
+}
+#id2{
+    
+    height:78vh;
+    width:40vw;
+    background-color: black;
+    margin-top: 1vh;
+    margin-left: 1vh;   
+}
+/* #parent2 :hover{
+    transform:scale(0.8);
+} */
+#id3{
+    border:2px solid black;
+    height:78vh;
+    width:60vw;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    position: relative;
+}
+
+.c1{
+    color:#FF5733 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:4vh;
+    margin-left: 2vh;
+    margin-top: 5vh;
+}
+.c2{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    margin-top: 1vh;
+    margin-left:1vh;
+}
+.c3{
+    margin-top:-3vh;
+    color:#9E9E9E;
+    font-family:"fantasy";
+    font-size: 3vh;
+    margin-left: 1vw;
+    
+}
+.c4{
+    width:60vw;
+    height:78vh;
+}
+.c5{
+    border:2px solid#FF33C9;
+    height:18vh;
+    width:8vw;  
+    margin-top: -24vh;
+    margin-left:29.5vw;
+    border-radius: 5px;
+    background-color: black;
+    
+
+}
+.c6{
+    color:#FF33C9;
+    font-weight: bold;
+    font-size: 2vh;
+   text-align: center;
+}
+video{
+    position: absolute;
+    z-index: -1;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    object-fit: cover;
+}
+.c7{
+    color:white;
+    text-align: center;
+}
+hr.c8{
+    color:"white";
+    width:30vw;
+    margin-top: -2.5vh;
+}
+.c9{
+    
+    margin-left:18vw;
+    margin-top: 4vh;
+}
+
+
+    
+
+@media only screen and (min-width:320px) and (max-width:479px){
+    #id2{
+        width:96vw;
+        /* margin-left: 0vh; */
+        height:54vh;
+    }
+    .c1{
+        font-size: 3vh;
+        margin-top: 3vh;;
+    }
+    .c3{
+        font-size: 1.8vh;
+        margin-top:-2.5vh;
+    }
+    #parent2{
+        display: flex;
+        flex-direction: column;
+    }
+    #id3{
+        width:96vw;
+        height:40vh;
+        
+    }
+    .c4{
+        width:99vw;
+        height:40vh;
+    }
+    .c5{
+        margin-top:-15vh;
+        margin-left:64vw;
+        width:29vw;
+        height:12vh;
+    }
+    .c6{
+        font-size: 1.5vh;
+    }
+    #id1{
+        width:98vw;
+    }
+    video{
+        height:107vh;
+    }
+    hr.c8{
+        width:85vw;
+        margin-top: -2vh;
+        color:"white";
+    }
+    .c9{
+        margin-left: 15vw;
+    }
+   
+   
+   
+    
+}
