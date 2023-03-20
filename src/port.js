@@ -50,11 +50,11 @@ export const Port=()=>{
 <div class="c9">
 <ReactPlayer  url='https://youtu.be/RpZiTELFZUE' controls="true"  width={"300px"} height={"300px"} />
 </div>
-<div className="c10">
+{/* <div className="c10">
 <SocialIcon url="https://instagram.com/nelloretechcreator?igshid=YmMyMTA2M2Y=" style={{width:"30px",height:"30px"}}/>
 <SocialIcon url="https://youtube.com/@nelloretechcreator" style={{width:"30px",height:"30px"}}/>
 <SocialIcon url="https://www.facebook.com/BeingMominkhan"style={{width:"30px",height:"30px"}}/>
-</div>
+</div> */}
 
           </div>
         </div>
