@@ -127,7 +127,7 @@ hr.c8{
     }
     #id3{
         width:96vw;
-        height:70vh;
+        height:80vh;
         
     }
     .c4{
@@ -156,6 +156,9 @@ hr.c8{
     }
     .c9{
         margin-left: 6vw;
+    }
+    video{
+        height:230vh;
     }
    
    
