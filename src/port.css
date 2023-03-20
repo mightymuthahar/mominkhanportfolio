@@ -126,11 +126,12 @@ margin-top: 2vh;
     .c1{
         font-size: 3vh;
         margin-top: 3vh;;
-        margin-left: -1vh;
+        margin-left:3vw;
     }
     .c3{
         font-size: 1.8vh;
         margin-top:-2.5vh;
+        color:#FF33C9;
     }
     #parent2{
         display: flex;
@@ -169,7 +170,7 @@ margin-top: 2vh;
         margin-left: 6vw;
     }
     video{
-        height:151.5vh;
+        height:153vh;
     }
    
    
