@@ -2,6 +2,8 @@ import "./port.css";
 import React, { useState, useEffect } from "react";
 import bgImage from './video/background1.mp4';
 import ReactPlayer from 'react-player'
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 // import React from "react";
 export const Port=()=>{
   const [date, setDate] = useState('');
@@ -49,9 +51,11 @@ export const Port=()=>{
 <ReactPlayer  url='https://youtu.be/RpZiTELFZUE' controls="true"  width={"300px"} height={"300px"} />
 </div>
 <div className="c10">
-<a href="https://instagram.com/nelloretechcreator?igshid=YmMyMTA2M2Y=" target={"_blank"}><img src="email.png" 
-style={{width:"30px",height:"30px"}}></img></a>
+<SocialIcon url="https://instagram.com/nelloretechcreator?igshid=YmMyMTA2M2Y=" style={{width:"30px",height:"30px"}}/>
+<SocialIcon url="https://youtube.com/@nelloretechcreator" style={{width:"30px",height:"30px"}}/>
+<SocialIcon url="https://www.facebook.com/BeingMominkhan"style={{width:"30px",height:"30px"}}/>
 </div>
+
           </div>
         </div>
       </div>
