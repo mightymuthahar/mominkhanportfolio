@@ -48,6 +48,10 @@ export const Port=()=>{
 <div class="c9">
 <ReactPlayer  url='https://youtu.be/RpZiTELFZUE' controls="true"  width={"300px"} height={"300px"} />
 </div>
+<div className="c10">
+<a href="https://instagram.com/nelloretechcreator?igshid=YmMyMTA2M2Y=" target={"_blank"}><img src="email.png" 
+style={{width:"30px",height:"30px"}}></img></a>
+</div>
           </div>
         </div>
       </div>

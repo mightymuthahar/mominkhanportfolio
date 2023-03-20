@@ -20,7 +20,7 @@
     
     height:78vh;
     width:40vw;
-    background-color: black;
+    /* background-color: black; */
     margin-top: 1vh;
     margin-left: 1vh;   
 }
@@ -90,11 +90,11 @@ video{
     object-fit: cover;
 }
 .c7{
-    color:white;
+    color:#FF33C9;;
     text-align: center;
 }
 hr.c8{
-    color:"white";
+    background-color:#FF33C9;
     width:30vw;
     margin-top: -2.5vh;
 }
@@ -103,8 +103,13 @@ hr.c8{
     margin-left:18vw;
     margin-top: 4vh;
 }
+.c10{
 
-
+}
+.c11{
+    width:30px;
+    height:30px;
+}
     
 
 @media only screen and (min-width:320px) and (max-width:1024px){
