@@ -107,7 +107,7 @@ hr.c8{
 
     
 
-@media only screen and (min-width:320px) and (max-width:479px){
+@media only screen and (min-width:320px) and (max-width:500px){
     #id2{
         width:96vw;
         /* margin-left: 0vh; */
